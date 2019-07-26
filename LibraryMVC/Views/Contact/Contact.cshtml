@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+}
+
+
+
+
+
+<style>
+    tr, td {
+        border: 0px solid red;
+        height: 30px;
+        width: 500px;
+        font-size: 30px;
+        color: black;
+        padding:10px;
+    }
+</style>
+
+
+<section class="ab-info-main py-md-5 py-4">
+    <div class="container py-md-6 py-6">
+        <h3 class="tittle text-center mb-lg-5 mb-3"><span class="sub-tittle"></span>Contact US </h3>
+        <div class="row contact-main-info">
+            <div class="col-md-12 contact-right">
+                <form action="Msg" method="post">
+                    <table>
+                        <tr>
+                            <td>Enter  Name</td>
+                            <td>
+                                <input id="SName" name="SName" type="text" class="email" placeholder="Name" required="" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter Email</td>
+                            <td>
+                                <input id="SEmail" name="SEmail" class="email" type="text" placeholder="Email" required="" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter Subject</td>
+                            <td>
+                                <input id="Subject" name="Subject" class="email" type="text" placeholder="Enter Subject" required="" />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Enter Message</td>
+                            <td>
+                                <input id="Msg" name="Msg" class="email" type="text" placeholder="Message" required="" />
+                            </td>
+
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="read mt-3">
+                                    <input id="submit" name="submit" type="submit" value="Send Message" class="btn btn-primary" />
+                                </div>
+                            </td>
+
+                        </tr>
+                    </table>
+            </div>
+            </form>
+        </div>
+
+    </div>
+
+
+    </div>
+
+
